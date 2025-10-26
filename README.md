@@ -1,4 +1,4 @@
-# AI for Visual Accessibility - Tactile Graphics 👁️
+# AI for Visual Accessibility - Tactile Graphics 
 
 Transform visual images into tactile patterns for visually impaired users using **3mm magnetic balls** and **AI-enhanced processing**.
 
@@ -228,9 +228,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Project Maintainer**: [Your Name]
-- Email: your.email@example.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Project Maintainer**: Pathan Mohammad Rashid
+- Email: mohammadrashid.pathan@iitgn.ac.in
+- GitHub: [@Pathan-Mohammad-Rashid]((https://github.com/Pathan-Mohammad-Rashid))
 
 ## 🗺️ Roadmap
 
