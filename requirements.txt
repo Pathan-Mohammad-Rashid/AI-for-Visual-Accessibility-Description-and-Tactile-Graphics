@@ -1,0 +1,42 @@
+# AI for Visual Accessibility - Tactile Graphics
+# Python Dependencies
+
+# Core Web Framework
+streamlit==1.31.0
+streamlit-drawable-canvas==0.9.3
+
+# Image Processing
+Pillow==9.5.0
+opencv-python==4.9.0.80
+numpy==1.24.4
+
+# AI/ML Libraries
+transformers==4.37.2
+torch==2.2.0
+torchvision==0.17.0
+
+# Optional: OpenAI API (if using GPT-4V)
+openai==1.10.0
+
+# Visualization
+matplotlib==3.8.2
+plotly==5.18.0
+seaborn==0.13.1
+
+# Data Handling
+pandas==2.2.0
+scipy==1.12.0
+
+# File Handling
+python-dotenv==1.0.0
+
+# Utilities
+tqdm==4.66.1
+requests==2.31.0
+
+# Testing (Optional)
+pytest==8.0.0
+pytest-cov==4.1.0
+
+# Deployment (Optional)
+gunicorn==21.2.0
