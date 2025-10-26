@@ -6,6 +6,12 @@ Transform visual images into tactile patterns for visually impaired users using 
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+## 🌐 Live Demo
+
+**Try the app now:** [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pathan-mohammad-rashid-ai-for-visual-accessibility-app.streamlit.app)
+
+The application is deployed on Streamlit Community Cloud and ready to use! No installation required.
+
 ## 🎯 Project Overview
 
 This system converts any image into a tactile representation that can be felt by visually impaired users. Using electromagnetically controlled 3mm magnetic balls, we create dynamic, refreshable tactile displays with AI-enhanced image processing.
@@ -190,6 +196,63 @@ flake8 src/
 2. Enable GPU runtime (Runtime → Change runtime type → GPU)
 3. Run cells to test VLM models
 4. Export results and integrate
+
+## 🚀 Deployment
+
+### Streamlit Community Cloud (Recommended)
+
+This app is deployed on Streamlit Community Cloud. To deploy your own instance:
+
+1. **Fork this repository** to your GitHub account
+
+2. **Sign up** for [Streamlit Community Cloud](https://streamlit.io/cloud) (free)
+
+3. **Deploy the app:**
+   - Click "New app" in your Streamlit Cloud dashboard
+   - Select your forked repository
+   - Set main file path: `app.py`
+   - Click "Deploy"
+
+4. **Configure secrets** (if using VLM features):
+   - Go to app settings → Secrets
+   - Add your API keys:
+     ```toml
+     OPENAI_API_KEY = "your-key-here"
+     ```
+
+5. **Access your app** at: `https://[your-username]-[repo-name]-app.streamlit.app`
+
+### Alternative Deployment Options
+
+#### Docker
+```bash
+# Build Docker image
+docker build -t tactile-graphics .
+
+# Run container
+docker run -p 8501:8501 tactile-graphics
+```
+
+#### Local Server
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run with Streamlit
+streamlit run app.py --server.port 8501
+```
+
+#### Cloud Platforms
+- **Heroku**: Use Streamlit's [deployment guide](https://docs.streamlit.io/knowledge-base/deploy/deploy-streamlit-heroku-aws-google-cloud)
+- **AWS/GCP/Azure**: Deploy using container services (ECS, Cloud Run, App Service)
+- **Railway**: Connect GitHub repo and deploy automatically
+
+### Deployment Files
+
+The repository includes these deployment configuration files:
+- `.streamlit/config.toml` - Streamlit configuration
+- `packages.txt` - System dependencies (for OpenCV)
+- `requirements.txt` - Python dependencies
 
 ## 📖 Documentation
 
