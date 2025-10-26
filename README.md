@@ -27,13 +27,20 @@ This system converts any image into a tactile representation that can be felt by
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### Option 1: Use the Live Demo (Easiest)
+
+**No installation required!** Try the app instantly at:
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pathan-mohammad-rashid-ai-for-visual-accessibility-app.streamlit.app)
+
+### Option 2: Run Locally
+
+#### Prerequisites
 
 - Python 3.9 or higher
 - VS Code (recommended) or any Python IDE
 - Windows, macOS, or Linux
 
-### Installation
+#### Installation
 
 1. **Clone or download the project:**
    ```bash
@@ -253,6 +260,8 @@ The repository includes these deployment configuration files:
 - `.streamlit/config.toml` - Streamlit configuration
 - `packages.txt` - System dependencies (for OpenCV)
 - `requirements.txt` - Python dependencies
+
+📚 **For detailed deployment instructions, see [DEPLOYMENT.md](DEPLOYMENT.md)**
 
 ## 📖 Documentation
 
